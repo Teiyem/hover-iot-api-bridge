@@ -4,6 +4,7 @@
     <list default="true" id="0248c987-7f3b-436a-84dc-c0345144c16e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.github/workflows/hover-iot-api-bridge-ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/hover-iot-api-bridge-ci.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +57,7 @@
       <option name="presentableId" value="Default" />
       <updated>1685218507497</updated>
       <workItem from="1685218508909" duration="5044000" />
-      <workItem from="1685233387116" duration="5308000" />
+      <workItem from="1685233387116" duration="5432000" />
     </task>
     <servers />
   </component>
