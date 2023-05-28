@@ -2,11 +2,13 @@
 
 Hover Api Bridge is a TypeScript-based RESTful API bridge designed to interact with third-party home automation libraries. It provides the Hover platform with a flexible and scalable solution for integrating different home automation platforms through a unified API. In essences it servers as a bridge between a Hover and third-party home automation libraries written in JavaScript/TypeScript. 
 
+[![Build Hover Api Bridge CI](https://github.com/Teiyem/hover-iot-api-bridge/actions/workflows/hover-iot-api-bridge-ci.yml/badge.svg)](https://github.com/Teiyem/hover-iot-api-bridge/actions/workflows/hover-iot-api-bridge-ci.yml)
+
 ## Features
 * RESTful API bridge for interacting with third-party home automation libraries. ⚠️
 * Docker containerization for easy deployment and scalability. ✅
 * Exposes a REST API for Hover. ⚠️
-* Supports a third-party home automation libraries features, including device discovery, state monitoring, and control. ⚠️
+* Supports a third party home automation libraries features, including device discovery, state monitoring, and control. ⚠️
 * Customizable configuration file for easy setup and deployment. ⚠️
 * Security. ⚠️
 
