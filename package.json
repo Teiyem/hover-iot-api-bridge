@@ -1,0 +1,32 @@
+{
+  "name": "hover-iot-api-bridge",
+  "version": "1.0.0",
+  "description": "A TypeScript-based RESTful API bridge designed to interact with third-party home automation libraries.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node dist/server.js",
+    "dev": "nodemon --exec ts-node src/server.ts",
+    "build": "tsc",
+    "docker:build": "docker build -t hover-ioi-api-bridge .",
+    "docker:run": "docker run -p 3000:3000 hover-ioi-api-bridge"
+  },
+  "keywords": [],
+  "author": "Thabang Mmakgatla",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Teiyem/hover-iot-api-bridge"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.2.5",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}

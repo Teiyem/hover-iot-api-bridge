@@ -1,0 +1,29 @@
+name: Build Hover Api Bridge CI
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 14
+
+      - name: Install dependencies with npm
+        run: npm ci
+
+      - name: Build with npm
+        run: npm run build
+
+      - name: Run tests with npm
+        run: npm test
